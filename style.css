@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+@import url('./fonts/signerica/signerica.css');
+
+html {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'IBM Plex Mono';
+	background: #f3f4ed;
+	color: #1b2021;
+}
+
+header,
+footer {
+	padding: 3rem;
+	display: flex;
+	justify-content: space-around;
+}
+
+header a {
+	color: #1b2021;
+	font-size: 13px;
+	line-height: 14.95px;
+	letter-spacing: 2px;
+	text-align: start;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+footer a {
+	color: #1b2021;
+	font-size: 13px;
+	line-height: 14.95px;
+	letter-spacing: 2px;
+	text-align: start;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Playfair Display', serif;
+	font-weight: 400;
+	font-size: 70px;
+	line-height: 88px;
+	padding: 3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+h3 {
+	font-size: 18px;
+	line-height: 20.7px;
+	letter-spacing: 2px;
+	padding: 1.5rem;
+}
+
+a:hover {
+	color: #ffbe0f;
+}
+
+p {
+	font-size: 17px;
+	line-height: 33px;
+}
+
+ul {
+	font-size: 17px;
+	line-height: 33px;
+	padding-left: 4rem;
+	padding-right: 3rem;
+}
+
+.desc {
+	color: #b4b4b4;
+}
+
+.academics {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.projects a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	color: #1b2021;
+	flex-direction: column;
+}
+
+.tools {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	flex-direction: row;
+}
+
+.tools img {
+	width: 80px;
+	height: 80px;
+}
+
+.tools img:hover {
+	transform: scale(1.1);
+}
+
+.tools a {
+	margin: 10px;
+}
+
+@media screen and (max-width: 600px) {
+	.academics {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
